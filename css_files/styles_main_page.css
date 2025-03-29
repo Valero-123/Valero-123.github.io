@@ -1,0 +1,189 @@
+header {
+    background-color: #52d0e0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+}
+
+body {
+    background-color: #52d0e0
+}
+h3 {
+    color: black;
+}
+footer {
+    background-color: #f58dd2; /* Цвет фона */
+    padding: 20px; /* Отступы */
+    display: flex; /* Используем flexbox для выравнивания */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    align-items: center; /* Выравнивание по центру по вертикали */
+}
+
+.main-title {
+    font-family: 'Gungsuh', cursive; /* Применение шрифта */
+    font-size: 90px; /* Установка размера шрифта */ 
+}
+.nomain-title {
+    font-family: 'Gungsuh', cursive; /* Применение шрифта */
+    font-size: 215%; /* Установка размера шрифта */
+    margin: 20px;
+
+}
+
+
+
+.search-container {
+    margin: 50px;
+    border-radius: 30px;
+    background-image: url('../images/v25_567.png');
+    background-size: contain;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.discount-button {
+    background-color: #f58dd2;
+    color: black;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 50px;
+
+}
+
+button {
+    margin: 10px 10px 10px 10px;
+    padding: 12px 20px; /* Увеличение размера кнопок */
+    background-color: #f58dd2; /* цвет кнопок */
+    color: black; /* Цвет текста кнопок */
+    border: dashed; /* Убираем границу */
+    border-radius: 5px; /* Скругление углов */
+    cursor: pointer; /* Курсор при наведении */
+    font-size: 200%; /* Увеличение размера шрифта кнопок */
+}
+
+
+
+
+
+
+.doctor-offers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.offer {
+    flex: 1 1 calc(33.333% - 20px); /* Делает все блоки одинаковой ширины, с учетом отступов */
+    margin: 10px; /* Отступы между блоками */
+    position: relative; /* Устанавливаем относительное позиционирование для родительского элемента */
+}
+
+.image-container {
+    position: relative; /* Устанавливаем относительное позиционирование для контейнера изображения */
+    overflow: hidden; /* Скрывает все, что выходит за пределы контейнера */
+}
+
+.offer img {
+    width: 100%; /* Заставляет изображение занимать всю ширину контейнера */
+    height: auto; /* Сохраняет пропорции изображения */
+    display: block; /* Убирает отступы снизу, которые могут быть у изображений */
+    border-radius: 10px;
+}
+
+.offer-button {
+    background-color: rgb(51, 51, 51); /* Тёмно-серый цвет с прозрачностью */
+    color: white; /* Цвет текста кнопки */
+    border: none; /* Убирает рамку */
+    padding: 10px 0; /* Отступы внутри кнопки */
+    cursor: pointer; /* Указывает, что элемент кликабельный */
+    position:center; /* Абсолютное позиционирование кнопки */
+    width: 100%; /* Задает ширину кнопки 100% от контейнера */
+    margin-left: 0;
+}
+
+
+.offer-button:hover {
+    background-color: rgba(85, 85, 85, 0.9); /* Цвет кнопки при наведении */
+}
+
+
+
+
+
+
+.footer-container {
+    display: flex; /* Flexbox для контейнера */
+    justify-content: space-between; /* Распределяем элементы по краям */
+    width: 100%; /* Занимаем всю ширину */
+}
+
+
+.social-media {
+    display: flex;
+    flex-direction: column; /* Вертикальное выравнивание */
+}
+
+.icons {
+    margin-top: 10px; /* Отступ сверху для иконок */
+}
+
+.icon {
+    margin-right: 10px; /* Отступ между иконками */
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #000; /* Цвет текста */
+}
+
+input[type="email"] {
+    margin-left: 10px; /* Отступ слева от email */
+    padding: 5px; /* Отступ внутри текстового поля */
+    border: 1px solid #ccc; /* Граница поля ввода */
+    border-radius: 4px; /* Закругленные углы */
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column; /* Вертикальное расположение элементов */
+    align-items: flex-end; /* Выравнивание по правому краю */
+}
+
+.subscribe-input {
+    display: flex; /* Группируем элементы в одну строку */
+    align-items: center; /* Выравниваем по центру вертикально */
+}
+
+.subscribe-input span {
+    margin-right: 5px; /* Отступ между текстом и полем ввода */
+}
+
+.subscribe-button {
+    margin-top: 5px; /* Отступ сверху для кнопки */
+    color: aliceblue; /* Цвет текста кнопки */
+    background: none; /* Убираем фон */
+    border: none; /* Убираем границу */
+    cursor: pointer; /* Указатель при наведении */
+    right: 0;
+}
+
+.subscribe-input span {
+    margin-right: 10px; /* Отступ между текстом и полем ввода */
+    font-family: 'Work Sans', sans-serif; /* Применение шрифта Work Sans */
+    font-size: 20px;
+}
+
+.end-info {
+    color: aliceblue; 
+    text-align: left; 
+    margin-top: 10px; 
+    display: flex; 
+    justify-content: space-between;
+}
+
+.end-info span {
+    flex-grow: 1; /* Позволяет элементам занимать равное пространство */
+}
